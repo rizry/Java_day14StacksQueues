@@ -3,6 +3,7 @@ package com.java.day14.stque;
 public class Main {
 
   public static void main(String[] args) {
+    System.out.println("-STACK OPERATIONS-");
     Stacks<Integer> st = new Stacks<>();
     st.push(70);
     st.push(30);
@@ -22,6 +23,14 @@ public class Main {
 
     st.display();
     st.pop();
+
+    System.out.println("\n-QUEUE OPERATIONS-");
+    Queues<Integer> que = new Queues<>();
+    que.enqueue(56);
+    que.enqueue(30);
+    que.enqueue(70);
+
+    que.display();
 
   }
 }
