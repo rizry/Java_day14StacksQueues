@@ -29,6 +29,15 @@ public class LinkedLists<E> {
 
   }
 
+  public void removeFirst() {
+    if (isEmpty()) {
+        System.out.println("list empty! nothing to remove");
+        return;
+    }
+    System.out.println("removed " + head.data);
+    head = head.next;
+  }
+
   public void removeLast() {
     if (isEmpty()) {
       System.out.println("list empty! nothing to remove");

@@ -11,5 +11,9 @@ public class Queues<E> {
   public void display() {
     linkedL.display();
   }
+  
+  public void dequeue() {
+    linkedL.removeFirst();
+  }
 
 }

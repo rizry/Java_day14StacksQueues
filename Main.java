@@ -31,6 +31,16 @@ public class Main {
     que.enqueue(70);
 
     que.display();
+    que.dequeue();
+
+    que.display();
+    que.dequeue();
+
+    que.display();
+    que.dequeue();
+
+    que.display();
+    que.dequeue();
 
   }
 }
