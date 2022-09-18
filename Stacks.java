@@ -11,4 +11,12 @@ public class Stacks<E> {
   public void display() {
     linkedL.displayFromEnd();
   }
+  
+  public void peek() {
+    linkedL.peek();
+  }
+
+  public void pop() {
+    linkedL.removeLast();
+  }
 }
